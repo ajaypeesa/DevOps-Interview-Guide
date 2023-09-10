@@ -24,6 +24,7 @@
 12. How would you set up automated testing in a DevOps environment, considering the complex business logic often present in financial applications?
 13. How do you ensure that logging and monitoring solutions are compliant with regulations like GDPR, especially when these logs may contain sensitive financial information?
 
+
 ## Cultural and Team Collaboration:
 
 14. DevOps often focuses on breaking down silos between teams. How would you foster collaboration between development, operations, and business teams in an FSI setting?
@@ -480,7 +481,7 @@ Post-deployment, continuously monitor application performance.
 - **Log Analysis:** Use tools like ELK Stack to analyze logs and identify issues.
 - **Feedback Integration:** Regularly gather feedback from users and integrate insights into the testing process.
 
----
+
 
 - Implementing automated testing for financial applications in a DevOps environment requires meticulous planning and domain understanding. With the right approach, you can achieve rapid delivery while ensuring the robustness and security of the application.
 
@@ -547,8 +548,9 @@ The regulatory environment is dynamic, so stay informed.
 - **Continuous Learning:** Regularly update your team's knowledge about GDPR and other relevant regulations.
 - **Engage with Legal:** Work closely with legal teams or experts to ensure interpretations of regulations are accurate.
 
----
+
 
 - Adherence to regulations like GDPR while logging and monitoring sensitive financial information is not just about compliance but also about building trust. By employing robust and transparent practices, organizations can ensure they respect user privacy while maintaining effective monitoring.
 
 ---
+
