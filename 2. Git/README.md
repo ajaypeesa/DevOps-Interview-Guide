@@ -298,5 +298,7 @@ Several extensions are available for Visual Studio Code to enhance code security
   - **Incident Management**: Provides a platform to manage and remediate detected incidents.
 
 
-These tools and extensions provide developers with immediate feedback about potential vulnerabilities in their code, making it easier to develop secure applications from the start. Integrating such tools early in the development process can save significant time and effort in the later stages of the application lifecycle.
+- These tools and extensions provide developers with immediate feedback about potential vulnerabilities in their code, making it easier to develop secure applications from the start. 
+- Integrating such tools early in the development process can save significant time and effort in the later stages of the application lifecycle.
+
 ---
