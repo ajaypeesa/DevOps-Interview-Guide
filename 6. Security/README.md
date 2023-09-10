@@ -149,4 +149,5 @@ A DevSecOps pipeline aims to integrate security practices directly into the DevO
 
 
 Implementing a DevSecOps pipeline for a Maven containerized project involves multiple stages, tools, and security checks. It's crucial to always stay updated with the latest security best practices and regularly review and iterate on the pipeline to enhance its security posture.
+
 ---
