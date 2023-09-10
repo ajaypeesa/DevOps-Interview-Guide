@@ -21,7 +21,7 @@ In the context of the Financial Services Industry (FSI) and its stringent regula
 8. **Training & Awareness:** Ensure that the entire DevOps team is regularly trained and updated on compliance requirements. An aware team is less likely to inadvertently breach regulations.
 
 - By following these practices and leveraging automation, it's possible to have a robust and compliant CI/CD pipeline in the FSI domain.
---------------------------------------------------------------------------------------------------------
+---
 
 ## AWS & Azure: Ensuring FSI Regulatory Compliance in CI/CD
 
@@ -54,7 +54,7 @@ When leveraging cloud platforms like AWS and Azure, additional tools and feature
 By leveraging specific tools and services from AWS and Azure, organizations can not only streamline their CI/CD processes but also maintain rigorous compliance standards required by the FSI. Regularly reviewing cloud service documentation and updating configurations as per evolving regulatory standards is also essential.
 
 
----------------------------------------------------------
+---
 
 ## Handling Sensitive Financial Data in DevOps
 
@@ -98,7 +98,7 @@ Sensitive financial data requires meticulous handling in any environment, especi
 
 - By implementing these strategies and continuously updating them according to evolving regulatory standards and emerging threats, a DevOps environment can securely handle sensitive financial data while maintaining compliance.
 
--------------------------------------------------------------------------------
+---
 
 ## DevOps in FSI: Challenges and Comparisons
 
@@ -138,8 +138,7 @@ Implementing DevOps in the Financial Services Industry (FSI) presents a unique s
    - The FSI might experience a lack of professionals who understand both finance and modern DevOps practices, leading to a talent gap.
    - Industries that have been tech-focused from the outset might have a broader pool of talent that merges domain knowledge with tech skills.
 
-- Understanding these challenges is the first step in successfully implementing DevOps in FSI. While other industries might have their own set of challenges, the stakes, regulations, and legacy baggage in FSI make its DevOps journey uniquely demanding.
----------------------------------------------------------------------
+---
 
 ## Ensuring Data Integrity in Automated Database Deployments
 
@@ -178,7 +177,5 @@ Automated database deployments, especially in the Financial Services Industry, d
 10. **Documentation:**
    - Maintain detailed documentation of all deployment processes and scripts. This not only serves as a reference but ensures that everyone is on the same page regarding best practices and procedures.
 
-- Given the critical nature of financial data, no compromise should be made on the integrity of the data. Leveraging these best practices can significantly mitigate risks associated with automated database deployments in the financial domain.
 
------------------------------------------------------------------------------
 

@@ -37,7 +37,7 @@
 18. Describe a time when you introduced a new tool or practice to your team. What was the process and the outcome?
 19. How do you prioritize tasks when multiple systems have issues or when there are conflicting demands from stakeholders?
 
----------------------------------------------------------------------------------------------------
+---
 
 ## DevOps Questions and Answers
 
@@ -92,7 +92,7 @@ Monitoring the health of applications in production involves:
 - **Configuration as Code (CaC):** This concept involves managing and automating the configuration of software and systems through versioned code. Tools like Ansible, Chef, Puppet, and SaltStack are often used for CaC.
 
 
----------------------------------------------------------------------------------------------------
+---
 
 
 ## Handling Versioning in a CI/CD Environment
@@ -142,7 +142,6 @@ Versioning is crucial in CI/CD to differentiate between different releases, trac
 
 - **Notify Stakeholders**: Whenever a new version is released, stakeholders (both internal and external) should be notified, especially if there are breaking changes.
 
-- In a CI/CD environment, robust versioning practices provide a clear historical record, facilitate collaboration, and ensure that software is consistently delivered to users. Effective versioning reduces ambiguities and ensures that teams can quickly respond to issues or changes when they arise.
 
 ---
 
@@ -185,7 +184,7 @@ Both blue/green and canary deployments are strategies to release new versions of
 - **Complexity**: Managing and monitoring multiple versions in production can be complex.
 - **Slow Rollout**: Complete deployment to all users can take longer compared to blue/green deployments.
 
-- In conclusion, while both deployment strategies aim to minimize risks during the release process, the choice between them depends on the organization's resources, tolerance for risk, and specific use cases.
+
 
 ---
 
@@ -294,7 +293,7 @@ Both Infrastructure as Code (IaC) and Configuration as Code (CaC) are fundamenta
 - **SaltStack**: Remote execution and configuration management system.
 
 
-In essence, while IaC focuses on automating the setup, configuration, and management of infrastructure, CaC emphasizes automating the configuration of the software and systems on that infrastructure. Leveraging both practices, especially in tandem, can greatly enhance the reliability, repeatability, and scalability of software deployments.
+- In essence, while IaC focuses on automating the setup, configuration, and management of infrastructure, CaC emphasizes automating the configuration of the software and systems on that infrastructure. Leveraging both practices, especially in tandem, can greatly enhance the reliability, repeatability, and scalability of software deployments.
 
 ---
 
