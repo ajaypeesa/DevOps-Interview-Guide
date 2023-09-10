@@ -213,5 +213,90 @@ For instance, if you have a `main` branch and a `feature` branch, and no commits
 
 However, if you want to preserve the branch topology (i.e., explicit evidence of a feature branch and a merge event), you can force a merge commit using the `--no-ff` option, even if a fast-forward merge is possible.
 
-----
+---
 
+# DevOps Interview Questions: DevSecOps in Git (Part 7)
+
+### 13. **What is DevSecOps, and how does it relate to Git?**
+
+**Answer:** 
+DevSecOps is the philosophy of integrating security practices within the DevOps process. It advocates for security as a shared responsibility among developers, operations, and security teams. With respect to Git, DevSecOps emphasizes the importance of secure coding practices, code reviews, and automated security checks to ensure that vulnerabilities are caught early in the development lifecycle.
+
+### 14. **How can you ensure secure coding practices when using Git?**
+
+**Answer:** 
+Here are several ways to incorporate secure coding practices with Git:
+
+1. **Pre-commit Hooks**: Implement Git hooks to scan for sensitive data, such as API keys or passwords, before the code is committed to the repository.
+  
+2. **Code Reviews**: Mandate peer code reviews to catch potential security issues. Git platforms like GitHub, GitLab, and Bitbucket all support Pull Request or Merge Request workflows to facilitate this.
+  
+3. **Automated Scanning**: Integrate tools that automatically scan your codebase for vulnerabilities. This can include SAST (Static Application Security Testing) tools or dependency scanners that check for vulnerabilities in libraries and packages.
+  
+4. **Branch Protection**: Use features like branch protection to ensure that direct commits to critical branches (like `main` or `master`) are restricted, and all changes undergo a review process.
+  
+5. **Audit Trails**: Maintain an audit trail of all changes. Git inherently provides a log of commits, but it's crucial to ensure that commit messages are meaningful and provide context.
+
+### 15. **What tools can be integrated with Git for enhanced security?**
+
+**Answer:** 
+Several tools can enhance security within Git:
+
+1. **Secret Scanners**: Tools like `git-secrets` or `TruffleHog` search for accidentally committed secrets or credentials.
+  
+2. **Static Code Analysis**: Solutions such as SonarQube, Checkmarx, and Fortify scan code for vulnerabilities.
+  
+3. **Dependency Scanners**: Dependabot, Snyk, and WhiteSource can be used to identify and remediate vulnerabilities in dependencies.
+
+4. **Container Scanning**: Tools like Clair and Anchore analyze Docker images for vulnerabilities.
+
+5. **Automated Policy Enforcement**: Solutions like Open Policy Agent can enforce policies and ensure compliance as code is developed and deployed.
+
+
+
+DevSecOps within Git ensures that security is not an afterthought but an integral part of the development and deployment process.
+---
+
+
+# DevOps Tools for Code Security
+
+### 1. **Snyk**
+- **Description**: Snyk is a popular tool that helps developers find and fix vulnerabilities in their codebase and its dependencies.
+- **Key Features**:
+  - **Dependency Scanning**: Scans project dependencies for known vulnerabilities.
+  - **Open Source Integration**: Works well with open source projects and can integrate directly with GitHub, GitLab, and Bitbucket.
+  - **Container Security**: Checks Docker images for vulnerabilities.
+  - **License Compliance**: Helps teams enforce license policies across their dependencies.
+
+### 2. **VS Code Extensions for Security**
+Several extensions are available for Visual Studio Code to enhance code security:
+
+- **Docker**: This extension makes it easier to build and manage Docker images, ensuring that Docker practices are securely implemented.
+  
+- **Bracket Pair Colorizer**: While not strictly a security tool, it helps in visualizing the start and end of blocks of code, preventing issues related to misplaced or forgotten brackets which can lead to unintended logic errors.
+  
+- **CodeQL**: Developed by GitHub, it allows developers to run queries on their codebase to detect potential vulnerabilities using the powerful CodeQL query language.
+
+### 3. **Checkmarx**
+- **Description**: Checkmarx provides comprehensive solutions for static and open source security testing.
+- **Key Features**:
+  - **Static Application Security Testing (SAST)**: Scans source code, identifies vulnerabilities, and provides actionable remediation recommendations.
+  - **Open Source Analysis**: Checks for vulnerabilities in open-source components and provides a detailed inventory.
+
+### 4. **WhiteSource Bolt**
+- **Description**: WhiteSource Bolt is an open-source vulnerability scanner.
+- **Key Features**:
+  - **Real-time Alerts**: Notifies developers about vulnerable components as soon as they're added.
+  - **Comprehensive Database**: Uses a continuously updated database to identify vulnerabilities.
+  - **Integration**: Can be integrated directly into GitHub, Azure DevOps, and other platforms.
+
+### 5. **GitGuardian**
+- **Description**: GitGuardian specializes in scanning repositories for secrets and credentials that may have been inadvertently committed.
+- **Key Features**:
+  - **Secret Detection**: Uses pattern matching and machine learning to identify secrets in code.
+  - **Real-time Monitoring**: Continuously monitors repositories to ensure no secrets are exposed.
+  - **Incident Management**: Provides a platform to manage and remediate detected incidents.
+
+
+These tools and extensions provide developers with immediate feedback about potential vulnerabilities in their code, making it easier to develop secure applications from the start. Integrating such tools early in the development process can save significant time and effort in the later stages of the application lifecycle.
+---
