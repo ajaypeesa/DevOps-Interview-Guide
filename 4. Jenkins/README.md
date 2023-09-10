@@ -170,28 +170,6 @@
 - **Answer**:
   - Jenkins provides a script security plugin that allows administrators to approve or deny the execution of unsafe Groovy scripts. It's essential to review and approve scripts only from trusted sources.
 
-## 9. **How can you read a JSON file and parse it in a Jenkins pipeline using Groovy?**
-
-- **Answer**:
-  - You can make use of the `readFile` step to read file contents and then use the `groovy.json.JsonSlurper` class to parse the JSON content. For example:
-    ```groovy
-    def jsonContent = readFile(file: 'path/to/json/file')
-    def jsonParsed = new groovy.json.JsonSlurper().parseText(jsonContent)
-    ```
-
-## 10. **How do you handle exceptions in a Jenkins Groovy script?**
-
-- **Answer**:
-  - You can use standard Groovy/Java `try-catch` blocks. For instance:
-    ```groovy
-    try {
-        // Some pipeline steps or Groovy code
-    } catch(Exception e) {
-        echo "Caught: ${e}"
-        currentBuild.result = 'FAILURE'
-    }
-    ```
-
 ---
 
 
