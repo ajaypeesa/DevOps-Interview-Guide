@@ -42,3 +42,19 @@ Ensure you have git installed on your machine to clone and navigate through the 
 
 ## Contributions
 Feel free to open pull requests with additional questions, topics, or improvements to the existing content. All contributions are welcome!
+
+---
+
+
+## Connect & Follow
+
+For more info, please connect and follow me:
+
+- Github: [https://github.com/manikcloud](https://github.com/manikcloud)
+- LinkedIn: [https://www.linkedin.com/in/vkmanik/](https://www.linkedin.com/in/vkmanik/)
+- Email: [varunmanik1@gmail.com](mailto:varunmanik1@gmail.com)
+- Facebook: [https://www.facebook.com/cloudvirtualization/](https://www.facebook.com/cloudvirtualization/)
+- YouTube: [https://bit.ly/32fknRN](https://bit.ly/32fknRN)
+- Twitter: [https://twitter.com/varunkmanik](https://twitter.com/varunkmanik)
+
+---
