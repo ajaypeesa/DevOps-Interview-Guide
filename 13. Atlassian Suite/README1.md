@@ -42,6 +42,6 @@
 
 **7. How do you handle user access and permissions across the Atlassian suite to ensure security?**
 
-   - *Possible Answer:* Atlassian products support user groups and roles. By creating specific user groups (like developers, testers, admins), permissions can be assigned at group levels. Fine-grained permissions can be set at the project or repository level. Also, integration with identity providers using SAML or OAuth can centralize user management.
+   - *Possible Answer:* Atlassian products support user groups and roles. By creating specific user groups (like developers, testers, admins), permissions can be assigned at group levels. Fine-grained permissions can be set at the project or repository level. Also, integration with identity providers using SAML or OAuth can centralize user management. 
 
 **8
