@@ -289,8 +289,6 @@ Collect metrics from the Node.js application and make them available for Prometh
 3. Prometheus or another monitoring system scrapes the metrics from this sidecar.
 
 ---
-.
-
 
 # Kubernetes Cheat Sheet
 
