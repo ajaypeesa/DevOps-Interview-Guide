@@ -184,7 +184,7 @@ But Snipe-IT's magic wasn't limited to licenses. GlobalTech utilized its feature
 To gauge the actual usage of various software, GlobalTech integrated SCCM (System Center Configuration Manager) with Snipe-IT. This integration enabled software metering, helping the team identify which software was being used, how often, and by whom. It ensured that licenses were used efficiently and that unused software licenses could be reallocated.
 
 ---
-
+ 
 ### **The Result**
 
 GlobalTech's IT landscape was transformed. With Snipe-IT, the once chaotic license management became streamlined. Every purchase, every license, and every piece of hardware was accounted for. The company could now operate with the confidence that their software assets were managed efficiently and compliantly.
