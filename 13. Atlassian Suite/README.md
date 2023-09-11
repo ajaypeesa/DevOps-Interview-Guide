@@ -58,7 +58,15 @@
 
 **10. Describe your experience with automating workflows in Jira.**
 
-   - *Answer:* Jira offers a powerful workflow engine. I've customized workflows based on the team's needs, added post functions to automate tasks upon transition, and implemented conditions and validators to enforce process rules. Additionally, tools like ScriptRunner can further
+   - *Answer:* Jira offers a powerful workflow engine. I've customized workflows based on the team's needs, added post functions to automate tasks upon transition, and implemented conditions and validators to enforce process rules. Additionally, tools like ScriptRunner can further enhance automation capabilities in Jira.
+
+**11. How do you ensure that the Atlassian tools are always available, especially in high-demand periods?**
+
+   - *Answer:* Load balancing, clustering (like Jira Data Center), and regular performance monitoring are vital. Proactively monitoring system metrics and setting up alerts ensures that any performance degradation is quickly addressed. Regularly updating and maintaining the infrastructure helps in preventing unforeseen downtimes.
+
+**12. Can you share an instance where you had to customize or extend the functionality of an Atlassian tool, and how you went about it?**
+
+   - *Answer:* In a previous project, we needed to integrate Jira with an external CRM tool. While there was no direct integration available, we leveraged Jira's REST API and developed a custom integration layer. Additionally, we used marketplace add-ons and custom scripts to enhance the Jira dashboard with data from the CRM.
 
    ---
 
