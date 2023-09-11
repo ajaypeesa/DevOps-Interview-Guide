@@ -45,6 +45,23 @@
 
    - *Answer:* Atlassian products support user groups and roles. By creating specific user groups (like developers, testers, admins), permissions can be assigned at group levels. Fine-grained permissions can be set at the project or repository level. Also, integration with identity providers using SAML or OAuth can centralize user management. 
 
+**8. What strategies do you employ to ensure seamless integration among the Atlassian tools, such as Jira, Confluence, and Bitbucket?**
+
+   - *Answer:* Atlassian products inherently integrate well with each other. Some best practices include:
+     - **Unified User Management:** By integrating Atlassian tools with a central identity provider or using Atlassian Crowd, we can ensure consistent user access and permissions across tools.
+     - **Application Links:** Establish application links between tools, enabling features like auto-linking Jira tickets in Bitbucket commits or referencing Confluence pages in Jira stories.
+     - **Use of Marketplace Add-ons:** The Atlassian Marketplace offers numerous plugins that further enhance integration capabilities, like the Jira toolkit plugin for Confluence.
+
+**9. How do you handle backups and disaster recovery for the Atlassian suite?**
+
+   - *Answer:* Regular backups are scheduled for all Atlassian tools. For on-premise installations, we use native backup utilities. For cloud offerings, we might leverage Atlassian's automatic backups and might also use third-party tools for additional backup layers. Disaster recovery plans are periodically tested, ensuring minimal downtime.
+
+**10. Describe your experience with automating workflows in Jira.**
+
+   - *Answer:* Jira offers a powerful workflow engine. I've customized workflows based on the team's needs, added post functions to automate tasks upon transition, and implemented conditions and validators to enforce process rules. Additionally, tools like ScriptRunner can further
+
+   ---
+
 ### License Management in Atlassian Suite
 
 **9. Which tools have you used or integrated with the Atlassian suite for license tracking?**
