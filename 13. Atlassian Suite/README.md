@@ -38,7 +38,8 @@
 
 ---
 
-### General Atlassian Suite  AB
+
+### General Atlassian Suite  
 
 **7. How do you handle user access and permissions across the Atlassian suite to ensure security?**
 
